@@ -1,30 +1,3 @@
-## Step 1 Create project
-```bash
-npm create vite .
-npm install
-npm run dev
-```
-## Step 2 push project to github
-```bash
-git init
-git add .
-git commit -m "init"
-git push
-```
-
-### when update code
-```bash
-git add .
-git commit -m "init"
-git push
-```
-## Step 3 install React Router
-```bash
-npm i react-router
-```
-
-
-```jsx
 //rfce
 import React from 'react'
 import { Link, Outlet, Route, Routes } from "react-router"
@@ -62,4 +35,3 @@ function AppRoutes() {
 }
 
 export default AppRoutes
-```
