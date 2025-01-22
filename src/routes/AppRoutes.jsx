@@ -12,6 +12,7 @@ import Layout from '../Layout/Layout'
 import About from '../pages/About'
 import Recap from '../pages/admin/Recap'
 import RecapUseState from '../pages/RecapUserState'
+import EasyZustand from '../pages/EasyZustand'
 function AppRoutes() {
   return (
     <div>
@@ -26,6 +27,7 @@ function AppRoutes() {
 
                 <Route path="recap" element={<Recap/>}/>
                 <Route path="recap_state" element={<RecapUseState/>}/>
+                <Route path="zustand" element={<EasyZustand/>}/>
             </Route>
 
             {/*Private*/}
