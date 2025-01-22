@@ -60,6 +60,17 @@ function AppRoutes() {
     </div>
   )
 }
+```
+
+## Step 4 Global state with Zustand
+```bash
+npm install zustand
+```
+
+## Step 5 Fetch data
+```bash
+npm install axios
+```
 
 export default AppRoutes
 ```
