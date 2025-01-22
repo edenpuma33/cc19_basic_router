@@ -11,11 +11,12 @@ function Product() {
     },[])
   return (
     <div>
-        <hr/>
+        <div className="flex flex-wrap justify-between">
         {products?.map((product)=>{
             return <ProductCard key={product.id} product={product}/>
         })
     }
+     </div>
     </div>
   )
 }

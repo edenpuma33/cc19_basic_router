@@ -15,6 +15,7 @@ function MainNav() {
             <Link to = '/recap_state'>RecapUseState</Link>
             <Link to = '/zustand'>Zustand</Link> */}
             <Link to = '/product'>Product</Link>
+            <Link to = '/mycart'>Cart</Link>
             </div>
             
             <div className="flex gap-4">

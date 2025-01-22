@@ -72,5 +72,10 @@ npm install zustand
 npm install axios
 ```
 
+## Use Lucide Icon
+https://lucide.dev/guide/installation
+```bash
+npm install lucide-react
+```
 export default AppRoutes
 ```
