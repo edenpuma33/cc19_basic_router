@@ -36,7 +36,7 @@ const mergeProducts = [...products,newProduct]
 console.log(mergeProducts)
 
   return (
-    <div>Recap</div>
+    <div>Easy, Zustand</div>
   )
 }
 export default Recap

@@ -11,6 +11,7 @@ import Manage from '../pages/admin/Mange'
 import Layout from '../Layout/Layout'
 import About from '../pages/About'
 import Recap from '../pages/admin/Recap'
+import RecapUseState from '../pages/RecapUserState'
 function AppRoutes() {
   return (
     <div>
@@ -22,7 +23,9 @@ function AppRoutes() {
                 <Route path="contact" element={<Contact/>}/>
                 <Route path="login" element={<Login/>}/>
                 <Route path="register" element={<Register/>}/>
+
                 <Route path="recap" element={<Recap/>}/>
+                <Route path="recap_state" element={<RecapUseState/>}/>
             </Route>
 
             {/*Private*/}
